@@ -540,3 +540,12 @@
   540  git config --list
   541  git init
   542  history > history
+  543  cp ~/.ssh/id_rsa.pub id_rsa.pub
+  544  git status
+  545  git add history id_rsa.pub
+  546  git commit -m 'This is supposed to add my history to my repository'
+  547  git config --global user.name "Abbajei"
+  548  git config --global user.email "jeipaulareinoso@gmail.com"
+  549  git config --list
+  550  git init
+  551  history > history
